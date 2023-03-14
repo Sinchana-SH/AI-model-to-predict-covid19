@@ -17,6 +17,8 @@ In the first layer it detect the edges of the image, then in the second layer it
 MaxPooling
 MaxPooling it is the operation that calculates the maximum value in each batch of feature map. It is used for feature reductions. In this example we have (4 x 4) matrix with pool size (2 x 2). So it will split the matrix to 4 mini matrices and will take the biggest value for each batch ,then it will merge them in one final matrix.
 
+DATASETS:Test>>Normal+ Pneumonia
+         Training set in 2 different folders-NORMAL+PNEUMONIA 
 #RESULTS/PREDICTIONS:
 
 ![Screenshot (42)](https://user-images.githubusercontent.com/116704673/225034580-7ef2535b-c5cc-4818-9af4-a428b28a2100.png)
