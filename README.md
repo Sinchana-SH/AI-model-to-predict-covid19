@@ -1,5 +1,5 @@
 ## AI-model-to-predict-covid19 using Chest Xrays using CNN,Sequential model and comparison with other pretrained models.
-
+Note: If the model code in the code folder is unaccessable click on the model file and paste url of the github file in https://nbviewer.org/
 #Objective
 The project 's motive is to create a comprehensive analysis detection methodology based on Deep learning for COVID-19 diagnosis. The objectives of this project are summarized in the following points,
 • Study and comprehend the noteworthy Deep learning methods for COVID-19 diagnosis.
