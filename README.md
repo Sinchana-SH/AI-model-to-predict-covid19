@@ -48,9 +48,9 @@ Matplotlib : is a cross-platform, data visualization and graphical plotting libr
 >Splitting the data:
 In deep learning, the data is typically split into three main categories: training data, validation data, and test data. Each category serves a specific purpose in the development and evaluation of the model. Here's a breakdown of these categories:
 
-1. Training Data: The training data is the largest portion of the dataset and is used to train the deep learning model. It contains labeled examples (input data along with their corresponding target or output values) that the model uses to learn the patterns and relationships in the data. The model adjusts its parameters iteratively based on the training data to minimize the difference between its predicted outputs and the actual target outputs. The training data is crucial for the model to learn and improve its performance.
+  1. Training Data: The training data is the largest portion of the dataset and is used to train the deep learning model. It contains labeled examples (input data along with their corresponding target or output values) that the model uses to learn the patterns and relationships in the data. The model adjusts its parameters iteratively based on the training data to minimize the difference between its predicted outputs and the actual target outputs. The training data is crucial for the model to learn and improve its performance.
 
-2. Test Data: The test data is a completely independent dataset that is not used during the model training or hyperparameter tuning phases. It is used to evaluate the final performance of the trained model. The test data provides an unbiased assessment of how well the model generalizes to unseen examples. By using a separate test set, you can get a more accurate representation of the model's performance in real-world scenarios. The test data should be representative of the data the model will encounter in practice.
+  2. Test Data: The test data is a completely independent dataset that is not used during the model training or hyperparameter tuning phases. It is used to evaluate the final performance of the trained model. The test data provides an unbiased assessment of how well the model generalizes to unseen examples. By using a separate test set, you can get a more accurate representation of the model's performance in real-world scenarios. The test data should be representative of the data the model will encounter in practice.
 
 
 
@@ -113,16 +113,21 @@ NOTE-DATASETS:Test>>Normal+ Pneumonia
          Training set in 2 different folders-NORMAL+PNEUMONIA 
          
 #RESULTS/PREDICTIONS:
->Sequential model: The green colour means the person was not sick and model predicted not sick so this correct,the red color means model predicted it wrong.
+>Sequential model: The green colour indicates the model prediction is correct,the red color indiactes model predicted it wrong.
 ![Screenshot (42)](https://user-images.githubusercontent.com/116704673/225034580-7ef2535b-c5cc-4818-9af4-a428b28a2100.png)
-PRETRAINED MODELS:Text with blue background indicates actual label and the text below the blue label is the predicted label,if has green text background it means its correctly predicted while red indicates wrong prediction.
->VGG16: 
+
+>PRETRAINED MODELS:Text with blue background indicates actual label and the text below the blue label is the predicted label,if has green text background it means its correctly predicted while red indicates wrong prediction.
+
+>VGG16:
+
 ![image](https://github.com/Sinchana-SH/AI-model-to-predict-covid19/assets/116704673/bb3422c5-59ee-475e-8dd9-d322a22f5a96)
 
 >VGG19
+
 ![image](https://github.com/Sinchana-SH/AI-model-to-predict-covid19/assets/116704673/e92975bc-541a-4f6d-a510-de3f5dab6c3d)
 
 >XCEPTION
+
  ![image](https://github.com/Sinchana-SH/AI-model-to-predict-covid19/assets/116704673/041e2039-8a17-4405-950c-13ef2dad954f)
 
  
